@@ -14,3 +14,7 @@ db = peewee.PostgresqlDatabase(
   port=DATABASE_PORT
 )
 
+class BaseModel(peewee.Model):
+  class Meta:
+    database = db
+
