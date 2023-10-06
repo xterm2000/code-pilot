@@ -6,7 +6,7 @@ import colorama
 from termcolor import colored
 
 
-API_KEY = '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'
+
 openai.api_key = API_KEY
 
 
